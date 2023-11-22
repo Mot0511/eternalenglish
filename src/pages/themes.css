@@ -1,0 +1,15 @@
+.theme{
+    color: #6b6b6b;
+    margin-bottom: 30px;
+}
+.win{
+    display: flex;
+    align-content: center;
+    padding: 100px 40px;
+    flex-direction: column;
+}
+@media screen and (max-width: 1300px){
+    .theme{
+        font-size: 25px;
+    }
+}

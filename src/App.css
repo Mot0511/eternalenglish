@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    transition: all 0.2s;
+    font-family: arial, serif;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page{
+    width: 80%;
+    display: flex;
+
+}
+.content{
+    width: 80%;
+    height: 80%;
+    /*border: 1px solid black;*/
+    display: flex;
+}
+@media screen and (max-width: 1300px){
+    .content{
+        display: block;
+    }
+    .main{
+        align-items: start;
+    }
+    .page{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 900px){
+    .page{
+        flex-wrap: wrap;
+    }
+}
